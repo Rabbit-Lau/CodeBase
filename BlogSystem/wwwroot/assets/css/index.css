@@ -1,0 +1,180 @@
+
+	<style>
+		element.style {
+			width: 100%;
+			height: 56px;
+			overflow: inherit;
+			overflow-x: inherit;
+			overflow-y: inherit;
+        }
+		.layout__panel--articletitle-bar {
+			background-color: #f3f3f3;
+		}
+		.layout__panel {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			flex: none;
+			overflow: hidden;
+		}
+		.article-bar {
+			height: 100%;
+		}
+		.flex--row {
+			flex-direction: row;
+		}
+		.flex {
+			display: flex;
+		}
+		.article-bar__input-box {
+			width: 80%;
+			margin: 8px 24px;
+			margin-top: 8px;
+			margin-right: 16px;
+			margin-bottom: 8px;
+			margin-left: 8px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			background-color: #fff;
+		}
+		.article-bar__input-box 
+		.article-bar__title--input {
+			display: inline-block;
+			width: 100%;
+			padding: 8px;
+			font-size: 18px;
+			line-height: 24px;
+			background-color: #fff;
+		}
+		 .text-input {
+			background-image: none;
+			border: 0;
+			border-radius: 4px;
+		}
+		.text-input {
+			display: block;
+			font-variant-ligatures: no-common-ligatures;
+			width: 100%;
+			height: 36px;
+			padding: 3px 12px;
+			font-size: inherit;
+			line-height: 1.5;
+			color: inherit;
+			background-color: #fff;
+		}
+		button, input, select, textarea {
+			font-family: inherit;
+			font-size: inherit;
+			line-height: inherit;
+		}
+		input {
+			overflow: visible;
+				overflow-x: visible;
+				overflow-y: visible;
+		}
+		button, input, optgroup, select, textarea {
+			font-family: sans-serif;
+			font-size: 100%;
+			line-height: 1.15;
+			margin: 0;
+		}
+		.article-bar__input-box .article-bar__number {
+			float: right;
+			line-height: 40px;
+			font-size: 20px;
+			margin-right: 8px;
+		}	
+		button {
+			cursor: pointer;
+		}
+		button, input, select, textarea {
+			font-family: inherit;
+			font-size: inherit;
+			line-height: inherit;
+		}
+		button, input, optgroup, select, textarea {
+			font-family: sans-serif;
+			font-size: 100%;
+			line-height: 1.15;
+			margin: 0;
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+		}
+		.article-bar__user-box {
+			padding: 8px 32px 8px 0;
+			padding-top: 8px;
+			padding-right: 32px;
+			padding-bottom: 8px;
+			padding-left: 0px;
+			width: 232px;
+		}
+		.flex--row {
+			flex-direction: row;
+		}	
+		.flex {
+			display: flex;
+		}
+		.btn-publish {
+			padding: 0 16px;
+			font-size: 16px;
+			color: #fff;
+			border: none;
+			border-radius: 4px;
+			white-space: nowrap;
+			background-color: #00cc4e;
+		}
+		.btn-back {
+			padding: 0 16px;
+			font-size: 16px;
+			color: #fff;
+			border: none;
+			border-radius: 4px;
+			white-space: nowrap;
+			background-color: #cc0000;
+		}
+		.btn-select{
+			padding: 0 16px;
+			font-size: 16px;
+			color: #fff;
+			border: none;
+			border-radius: 4px;
+			white-space: nowrap;
+			background-color: #17b1e0;
+		}
+		main div.blog-content-box 
+		.article-header-box {
+			border-bottom: 1px solid #e0e0e0;
+			padding-top: 16px;
+			z-index: 9;
+			background-color: #fff;
+		}
+		main div.blog-content-box .article-header-box .article-header div
+		.article-title-box {
+			margin-bottom: 8px;
+		}
+		.article-type {
+			margin-right: 8px;
+			margin-top: 4px;
+		}
+		span.article-type.type-1 {
+		color: #ca0c16;
+		border: 1px solid #f4ced0;
+		}
+		.h1, .h2, .h3, .h4, .h5, .h6, a, abbr, body, cite, dd, dl, dt, h1, h2, h3, h4, h5, h6, iframe, input, li, object, ol, p, pre, span, ul {
+    font-family: 'Microsoft YaHei','SF Pro Display',Roboto,Noto,Arial,'PingFang SC',sans-serif;
+}
+		.article-bar-top {
+		color: #858585;
+		width: 88%;
+		height: 24px;
+		overflow: hidden;
+	}
+	main div.blog-content-box .article-header-box .article-header div.article-title-box .title-article {
+    font-size: 24px;
+	word-wrap: break-word;
+	}
+	.am-u-sm-12{width:100%}
+	.am-u-md-12{width:100%}
+	</style>
